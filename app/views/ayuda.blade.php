@@ -3,6 +3,8 @@
 
 @section('content')
 
+ <script src="/assets/js/angular.min.js"></script> 
+     
 <h1>
 Informacion
 </h1>

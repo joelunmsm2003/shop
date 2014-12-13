@@ -15,6 +15,8 @@ class UsersController extends \BaseController {
 		return View::make('list')->with('users',$users);
 
 	}
+
+
 	else
 	{
 		//return Redirect::guest('/login');
@@ -26,6 +28,18 @@ class UsersController extends \BaseController {
 
 {
 	return View::make('form');
+
+
+}
+
+
+	public function angular()
+
+{
+	
+	Blade::setEscapedContentTags('[[', ']]');
+	Blade::setContentTags('[[[', ']]]');
+	return View::make('angular');
 
 
 }

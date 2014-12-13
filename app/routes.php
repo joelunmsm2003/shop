@@ -11,7 +11,6 @@
 |
 */
 
-
 Route::resource('users','UsersController');
 
 Route::resource('products','ProductsController');
@@ -515,3 +514,4 @@ Route::get('email', function()
  
 });
 
+Route::get('angular', 'UsersController@angular');
