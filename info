@@ -1,0 +1,17 @@
+git@github.com:joelunmsm2003/shop-laravel.git
+
+ssh -p 2222 irene24@emprendedorasa1.com
+pass Saw9tt0yfyKt
+
+php artisan serve
+
+mcrypt 
+/
+sudo apt-get install php5-mcrypt
+
+sudo ln -s /etc/php5/conf.d/mcrypt.ini /etc/php5/mods-available/mcrypt.ini
+
+sudo php5enmod mcrypt
+
+sudo service apache2 restart
+/
